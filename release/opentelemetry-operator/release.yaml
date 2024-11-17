@@ -16,7 +16,7 @@ spec:
       targetRevision: 0.26.3
       helm:
         valueFiles:
-          - $values/release/values.yaml
+          - $values/release/opentelemetry-operator/values.yaml
 
     - repoURL: https://github.com/IanHewlett/demo-platform-service-opentelemetry.git
       ref: values
