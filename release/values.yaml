@@ -1,0 +1,8 @@
+nodeSelector:
+  nodegroup: management-nodes
+
+tolerations:
+  - key: "dedicated"
+    operator: "Equal"
+    value: management
+    effect: "NoSchedule"
