@@ -13,7 +13,7 @@ spec:
   sources:
     - chart: opentelemetry-operator
       repoURL: https://open-telemetry.github.io/opentelemetry-helm-charts
-      targetRevision: 0.26.3
+      targetRevision: 0.26.4
 
       helm:
         valueFiles:
